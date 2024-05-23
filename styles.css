@@ -48,7 +48,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    white-space: nowrap; /* Prevent button text from wrapping */
+    white-space: nowrap; /* Estä painikkeen tekstin rivittyminen */
 }
 
 /* Hover-efekti painikkeille */
