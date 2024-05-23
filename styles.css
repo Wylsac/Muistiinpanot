@@ -129,12 +129,12 @@ button:hover {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Center tabs horizontally */
-    flex-wrap: wrap; /* Allow tabs to wrap to next line */
+    justify-content: center; /* Keskitetään välilehdet vaakasuunnassa */
+    flex-wrap: wrap; /* Sallitaan välilehtien siirtyminen seuraavalle riville */
 }
 
 .tabs li {
-    margin: 5px; /* Add some space between tabs */
+    margin: 5px; /* Lisätään hieman väliä välilehtien väliin */
 }
 
 .tabs button {
@@ -144,33 +144,33 @@ button:hover {
     border-radius: 4px;
     padding: 8px 16px;
     cursor: pointer;
-    white-space: nowrap; /* Prevent button text from wrapping */
+    white-space: nowrap; /* Estetään napin tekstin rivittyminen */
 }
 
-/* Adjust button font size for smaller screens */
+/* Säädetään napin fonttikokoa pienemmille näytöille */
 @media screen and (max-width: 600px) {
     .tabs button {
-        font-size: 12px; /* Decrease font size for smaller screens */
+        font-size: 12px; /* Pienennetään fonttikokoa pienemmillä näytöillä */
     }
 }
 
 #todo-summary {
     color: #333;
-    text-shadow: 2px 2px 4px rgba(228, 60, 60, 0.3); /* Add shadow to "remaining tasks" text */
+    text-shadow: 2px 2px 4px rgba(228, 60, 60, 0.3); /* Lisätään varjo "jäljellä olevat tehtävät" -tekstiin */
     margin-bottom: 10px;
-    text-align: center; /* Center-align the text */
-    width: 100%; /* Occupy full available width */
+    text-align: center; /* Keskitetään teksti */
+    width: 100%; /* Otetaan koko käytettävissä oleva leveys */
 }
 
 #todo-list {
     padding: 0;
     list-style: none;
-    margin-top: 20px; /* Top margin */
-    text-align: center; /* Center-align the items */
+    margin-top: 20px; /* Yläväli */
+    text-align: center; /* Keskitetään kohteet */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center-align the list items horizontally */
-    width: 100%; /* Occupy full available width */
+    align-items: center; /* Keskitetään listan kohteet vaakasuunnassa */
+    width: 100%; /* Otetaan koko käytettävissä oleva leveys */
 }
 
 @keyframes fadeOut {
@@ -185,7 +185,7 @@ button:hover {
 }
 
 .fade-out {
-    animation: fadeOut 0.5s forwards; /* Animation duration is 0.5 seconds */
+    animation: fadeOut 0.5s forwards; /* Animaation kesto on 0,5 sekuntia */
 }
 
 .hidden {
@@ -199,5 +199,6 @@ button:hover {
 }
 
 .tabs button.active {
-    background-color: #007bff; /* Active button background color */
+    background-color: #007bff; /* Aktiivisen napin taustaväri */
 }
+
